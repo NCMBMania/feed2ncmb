@@ -2,6 +2,14 @@
 
 ## 使い方
 
+インストールはnode.jsが必須です。
+
+```
+npm install
+```
+
+実際に使う時にはフィードのURLを渡すだけです。
+
 ```
 $ node index.js http://feeds.feedburner.com/moongift
 ```
