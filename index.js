@@ -2,8 +2,8 @@ var request = require('request');
 sha256 = require('js-sha256');
 
 var NCMB = require('ncmb');
-var application_key = 'd288714a5a801f4ccaaac99c87df41d35e38b5804a9ecbcd2026c1901e914fc0';
-var client_key = 'f94dc609df08dfb5d87f99a2b52a4704e6838db9bc11dbcf29c677aa088d51cc';
+var application_key = 'YOUR_APPLICATION_KEY';
+var client_key = 'YOUR_CLIENT_KEY';
 var ncmb = new NCMB(application_key, client_key);
 var Feed = ncmb.DataStore("Feed");
 var Item = ncmb.DataStore("Item");
